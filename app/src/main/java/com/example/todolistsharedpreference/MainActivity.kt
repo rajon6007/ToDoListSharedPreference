@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 alertDialog.setPositiveButton("Yes"){_,_->
                     deleteTask(position)
                 }
-                alertDialog.setPositiveButton("No"){_,_-> }
+                alertDialog.setNegativeButton("No"){_,_-> }
                 alertDialog.show()
             }
 
